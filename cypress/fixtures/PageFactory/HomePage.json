@@ -1,0 +1,3 @@
+{
+  "Create an Account Link": "div.panel.wrapper li > a[href*='account/create']"
+}

@@ -1,0 +1,17 @@
+{
+  "User Registration Page Heading": "span[data-ui-id='page-title-wrapper']",
+  "Personal Information Sub Heading": "fieldset[class='fieldset create info'] legend span",
+  "First Name Textbox": "#firstname",
+  "Last Name Textbox": "#lastname",
+  "Sign in Information Sub Heading": "fieldset[class='fieldset create account'] legend span",
+  "Email Textbox": "#email_address",
+  "Password Textbox": "#password",
+  "Password Strength Meter": "#password-strength-meter-label",
+  "Confirm Password Textbox": "#password-confirmation",
+  "Create an Account Button": "button[title='Create an Account']",
+  "Error message - First Name": "#firstname-error",
+  "Error message - Last Name": "#lastname-error",
+  "Error message - Email": "#email_address-error",
+  "Error message - Password": "#password-error",
+  "Error message - Confirm Password": "#password-confirmation-error"
+}

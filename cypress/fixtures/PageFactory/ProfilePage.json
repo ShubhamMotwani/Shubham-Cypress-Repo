@@ -1,0 +1,6 @@
+{
+  "Message After Registration": "div[data-bind*='prepareMessageForHtml']",
+  "My Account Heading": "span[data-ui-id='page-title-wrapper']",
+  "Contact Information": ".box-content p",
+  "Welcome Message": "div.panel.wrapper > div > ul > li.greet.welcome > span"
+}

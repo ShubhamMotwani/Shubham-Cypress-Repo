@@ -1,0 +1,23 @@
+{
+  "name": "shubham_cypress_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Motwani",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@faker-js/faker": "^8.4.1",
+    "faker": "^5.5.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/integration/Testcases/BDD/StepDefinitions/PageStepDefinitions/*.js",
+      "cypress/integration/Testcases/BDD/StepDefinitions/GlobalStepDefinitions/*.js"
+    ]
+  }
+}
